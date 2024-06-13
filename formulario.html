@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #meuID{
+            background-color: rgb(197, 224, 224);
+            border: 2px solid rgb(255, 47, 168);
+        }
+        input[type="radio" ] {
+            color: rgb(243, 22, 188);
+        }
+    </style>
+</head>
+<body>
+    <form action="#"> Crie sua Contar</form><br>
+
+    <label for="meuID">Nome:</label><br>
+    <input type="text" id="meuID"><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <input type="number" name="telefone" id="telefone" value="1000"><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" name="email" id="name" placeholder="exemplo@gmail.com"><br>
+
+    <label for="senha">Crie sua senha:</label><br>
+    <input type="password" name="senha" id="senha"><br>
+    <br>
+    <button type="submit">Cadastrar</button>
+    <button type="reset">Limpar</button><br>
+    <br>
+
+
+    <label for="">Exemplo Caixas de seleção</label>
+    <br>
+    <input type="checkbox" name="selecao" id="f" value="lojafemenino">
+    <label for="f">Loja Feminina</label>
+    <input type="checkbox" name="selecao" id="m" value="lojamasculino">
+    <label for="m">Loja masculino</label><br>
+    <br>
+    <label for="">Exemplo de seleção unica</label><br>
+    <br>
+    <input type="radio" name="unicoselecao" id="um" value="1">
+    <label for="um"> 10 mil ou </label><br>
+    <input type="radio" name="unicoselecao" value="2" id="dois">
+    <label for="2">1 Presente Misterioso</label>
+<br>
+    <label for="cores">Seleção por lista</label><br>
+    <select name="cores" id="cores">
+    <option value="1" disabled> first</option>
+    <option value="3">second</option>
+    <option value="3">thard</option>
+</select><br>
+<textarea name="jh" id="jh" cols="30" rows="10"></textarea>
+</body>
+</html>

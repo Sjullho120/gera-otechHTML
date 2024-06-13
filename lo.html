@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,td,th,tr{
+            border: 1px solid blue;
+            margin-top: 1px;
+            background: gray;
+    border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-         <h1>Aula 01</h1>
+         <h1>exemplos de utilazação das tags</h1>
     <h2>Apresentação das listas</h2>
     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima quibusdam ducimus commodi quam sit laudantium eligendi. Aperiam corporis totam quaerat voluptate, consequatur ullam molestias. Illum facere reiciendis provident deserunt.</p>
         <h3>Listas ordenadas</h3>
@@ -27,7 +35,45 @@
         <li>sol</li>
         <li>lua</li>
        </ol>
-        
+
+       <!-- tabelas -->
+       <h2>Apresentação tabelas</h2>
+        <table>
+            <tr>
+                 <!-- título das colunas -->
+            <th >Coluna1</th>
+            <th>Coluna2</th>
+            <th>Coluna3</th>
+
+            </tr>
+           
+            <!-- informações da tabela -->
+            <tr>
+                <td>Infor linha1 col1</td>
+                <td>Infor linha2 col2</td>
+                <td>Infor linha3 col3</td>
+            </tr>
+            <tr>
+                <td>aqui</td>
+                <td>ali</td>
+                <td>la</td>
+            </tr>
+            <tr>
+                <td colspan="2">infor linha 3/2</td>
+                <td>infor linha3 col3</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">infor 4/5 coluna 1</td>
+                <td>infor 4/5 coluna 2</td>
+                <td>infor lina 4 coluna3</td>
+            </tr>
+
+            <tr>
+                <td >info linha 5 col2</td>
+                <td>inf linha 5 col3</td>
+            </tr>
+        </table>
         
 </body>
 </html>
