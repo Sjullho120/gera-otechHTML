@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 86px;
+            height: 34px;
+        }
+        
+        table,td,th,tr{
+            border: 1px solid blue;
+            margin-top: 1px;
+            background: gray;
+    border-collapse: collapse;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+      <img src="logo-geracao-2.png" alt="logo-geracao-2">
+      <h1>Geração tech - Desenvolvimento Front-end</h1>
+
+      <nav>
+        <a href="#"> Tags de Texto</a>
+        <a href="#listas"> Tags de Lista</a>
+        <a href="#tabelas">Tags Tabelas</a>
+        
+        <a href="">Tags de Divisões</a>
+        <a href="#formulario">Tags de Formulaios</a>
+      </nav>
+    </header>
+    <main>
+      <section id="listas">
+        <h1 >exemplos de utilazação das tags</h1>
+        <h2 id="ui">Apresentação das listas</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima quibusdam ducimus commodi quam sit laudantium eligendi. Aperiam corporis totam quaerat voluptate, consequatur ullam molestias. Illum facere reiciendis provident deserunt.</p>
+            <h3>Listas ordenadas</h3>
+            <ol type="I">
+                <li>coisa</li>
+                <li>kkk</li>
+             <li>atem</li>
+            </ol>
+            <h3 id="oi">Listas nao ordenadas</h3>
+            <ul>
+                <li>coisa</li>
+                <li>etr</li>
+                <li>dsa</li>
+            </ul>
+            <h3>continuaçao das lista ordenadas</h3>
+           <ol type="I" start="4">
+            <li>loi</li>
+            <li>sol</li>
+            <li>lua</li>
+           </ol>
+      </section>
+    
+      <section id="tabelas">
+        <!-- tabelas -->
+        <h2 id="oi">Apresentação tabelas</h2>
+        <table>
+            <tr>
+                 <!-- título das colunas -->
+            <th >Coluna1</th>
+            <th>Coluna2</th>
+            <th>Coluna3</th>
+
+            </tr>
+           
+            <!-- informações da tabela -->
+            <tr>
+                <td>Infor linha1 col1</td>
+                <td>Infor linha2 col2</td>
+                <td>Infor linha3 col3</td>
+            </tr>
+            <tr>
+                <td>aqui</td>
+                <td>ali</td>
+                <td>la</td>
+            </tr>
+            <tr>
+                <td colspan="2">infor linha 3/2</td>
+                <td>infor linha3 col3</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">infor 4/5 coluna 1</td>
+                <td>infor 4/5 coluna 2</td>
+                <td>infor lina 4 coluna3</td>
+            </tr>
+
+            <tr>
+                <td >info linha 5 col2</td>
+                <td>inf linha 5 col3</td>
+            </tr>
+        </table>
+        <h1>Tabela Simples</h1>
+        <table>      
+    <tr>
+        <th>nome:</th>
+        <th>nota 1:</th>
+        <th>nota 2:</th>
+        <th>nota 3:</th>
+        <th>nota 4:</th>
+            </tr>
+        
+            <tr>
+                <td>Alice</td>
+                <td>10</td>
+                <td>4</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>liceu</td>
+                <td>0</td>
+                <td>8</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>10</td>
+                <td>6</td>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>9</td>
+                <td>2</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        
+        <!-- tabela mais robusta -->
+        <table>
+            <tr>
+                <th rowspan="2" colspan="2"></th>
+                <th colspan="3">Demografia</th>
+                
+            </tr>
+            <tr>
+                <th id="al">Meninas</th>
+                <th>Meninos</th>
+                <th>Professor</th>
+            </tr>
+            <tr>
+                <th rowspan="4">Turma</th>
+                <td>A</td>
+                <td>20</td>
+                <td>5</td>
+                <th rowspan="2">João Pedro</th>
+               
+            </tr>
+        
+            <tr>
+                <td>B</td>
+                <td>21</td>
+                <td>3</td>
+                
+            </tr>
+        
+            <tr>
+                <td>C</td>
+                <td>25</td>
+                <td>2</td>
+                <th rowspan="2">Maria</th>
+                
+            </tr>
+        
+            <tr>
+                <td>D</td>
+                <td>20</td>
+                <td>0</td>
+                
+            </tr>
+            <tr>
+                <th colspan="2" >total</th>
+                <td>86</td>
+                <td>10</td>
+                <td>2</td>
+               
+            </tr>
+            
+           
+        </table>
+
+      </section>
+
+      <section id="formulario">
+        <h2>Formularios</h2>
+        <form action="#"> Crie sua Contar</form><br>
+
+        <label for="meuID">Nome:</label><br>
+        <input type="text" id="meuID"><br>
+    
+        <label for="telefone">Telefone:</label><br>
+        <input type="number" name="telefone" id="telefone" value="1000"><br>
+    
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="name" placeholder="exemplo@gmail.com"><br>
+    
+        <label for="senha">Crie sua senha:</label><br>
+        <input type="password" name="senha" id="senha"><br>
+        <br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button><br>
+        <br>
+    
+    
+        <label for="">Exemplo Caixas de seleção</label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="lojafemenino">
+        <label for="f">Loja Feminina</label>
+        <input type="checkbox" name="selecao" id="m" value="lojamasculino">
+        <label for="m">Loja masculino</label><br>
+        <br>
+        <label for="">Exemplo de seleção unica</label><br>
+        <br>
+        <input type="radio" name="unicoselecao" id="um" value="1">
+        <label for="um"> 10 mil ou </label><br>
+        <input type="radio" name="unicoselecao" value="2" id="dois">
+        <label for="2">1 Presente Misterioso</label>
+    <br>
+        <label for="cores">Seleção por lista</label><br>
+        <select name="cores" id="cores">
+        <option value="1" disabled> first</option>
+        <option value="3">second</option>
+        <option value="3">thard</option>
+    </select><br>
+    <textarea name="jh" id="jh" cols="30" rows="10"></textarea>
+      </section>
+    
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+</html>
