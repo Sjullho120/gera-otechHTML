@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aquamarine;
+    border: 1px solid red;
+    margin:10px 15px 0px 30px;
+    padding: 10px;
+    border-radius: 60px;
+    border-left: 20px solid rgb(141, 11, 91);
+}
+nav a{
+    display: block;
+}
+img{
+    width: 86px;
+    height: 34px;
+}
+
+table,td,th,tr{
+    border: 1px solid blue;
+    margin-top: 1px;
+    background: gray;
+border-collapse: collapse;
+}
+.div1{
+    background-color: blue;
+    color: rgb(17, 17, 17);
+    width: 50px;
+    height: 100px;
+    display: inline-block;
+}
+.div2{
+    background-color: rgb(247, 62, 200);
+    color: rgb(15, 9, 1);
+    width: 50px;
+    height: 20px;
+    display: none;
+}
+.div3{
+    background-color: rgb(68, 247, 62);
+    color: rgb(15, 9, 1);
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    max-height: 80px;
+}
+.container{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+   /* width: 500px; */
+   justify-content: space-evenly;
+   height: 300px;
+   align-items: baseline;
+  flex-wrap: wrap-reverse;
+  align-content: stretch;
+
+}
+.vermelho{
+background-color: red;
+width: 150px;
+/* height: 50px; */
+}
+.verde{
+background-color: green;
+width: 200px;
+/* height: 50px; */
+}
+.azul{
+    background-color: blue;
+    width: 150px;
+    /* height: 50px; */
+
+}
